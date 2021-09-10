@@ -9,5 +9,8 @@ public class Hello {
 
         System.out.println(myTotal);
 
+        int myLastOne = 1000 - myTotal;
+        System.out.println(myLastOne);
+
     }
 }
