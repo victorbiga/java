@@ -34,7 +34,31 @@ public class Main {
         System.out.println(bigLongLiteralValue);
 
         short bigShortLiteralValue = 32767;
+        // not valid number exceeding maximum of short
+        // short bigShortLiteralValue = 32768;
 
+        int myTotal = (myMinIntValue / 2);
+        System.out.println("My New Total Value" + myTotal);
+
+        byte myNewByteValue = (byte) (myMinByteValue / 2);
+        System.out.println("My New Byte Value = " + myNewByteValue);
+
+        short myNewShortValue = (short) (myMinShortValue / 2);
+        System.out.println("My New Short Value " + myNewShortValue);
+
+        // challenge
+
+        byte myChallengeByteNumber = 10;
+        System.out.println("Byte Challenge Number = " + myChallengeByteNumber);
+
+        short myChallengeShortNumber = 20;
+        System.out.println("Short Challenge Number = " + myChallengeShortNumber);
+
+        int myChallengeIntNumber = 50;
+        System.out.println("Int Challenge valid number = " + myChallengeIntNumber);
+
+        long myChallengeLongNumber = 50000L + (10L * (myChallengeByteNumber + myChallengeShortNumber + myChallengeIntNumber));
+        System.out.println("Long variable with multiplier and sum = " + myChallengeLongNumber);
 
 
     }
