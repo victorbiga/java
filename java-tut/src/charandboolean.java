@@ -11,7 +11,7 @@ public class charandboolean {
         boolean myTrueBooleanValue = true;
         boolean myFalseBooleanValue = false;
 
-        boolean isCustomeOverTwentyOne = true;
+        boolean isCustomerOverTwentyOne = true;
 
     }
 }
