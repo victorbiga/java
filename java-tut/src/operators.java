@@ -36,6 +36,20 @@ public class operators {
         result -= 2; // 10 - 2 = 8
         System.out.println("10 - 2 = " + result);
 
+        // only first statement will get executed
+        boolean isAlien = false;
+        if (isAlien == true)
+            System.out.println("It is not an alien!");
+            System.out.println("and I am scared of aliens");
+
+        // will allow to execute more than one statement by adding {} and making it block
+        boolean isAlien2 = false;
+        if (isAlien == false) {
+            System.out.println("It is not an alien!");
+            System.out.println("and I am scared of aliens");
+        }
+
+
 
     }
 }
